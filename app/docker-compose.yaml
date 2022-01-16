@@ -23,4 +23,4 @@ services:
       MSQL_PASSWORD: josanojp25
       MYSQl_ROOT_PASSWORD: root
     volumes:
-      - .dbdata:/var/lib/mysql
+      - .dbdata:C:\Program Files\MySQL
